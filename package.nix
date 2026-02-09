@@ -2,7 +2,7 @@
 
 let
   pname = "hytale-launcher";
-  version = "release/2026.01.24-997c2cb";
+  version = "release/2026.02.06-b95ae53";
 
   hytale-launcher-unwrapped = stdenv.mkDerivation {
     pname = "${pname}-unwrapped";
@@ -11,7 +11,7 @@ let
     src = fetchurl {
       #TODO: find out how to not only get a specific version, if possible
       url = "https://launcher.hytale.com/builds/release/linux/amd64/hytale-launcher-latest.flatpak";
-      hash = "sha256-14Yd4hMipAtdzr8msHugfqJHtr8slLBd1/shX4qJ9WM=";
+      hash = "sha256-Lt9agnXzWyGH6NNtfLJFNrpFVrhl+3bYzbirM/e9iT4=";
     };
 
     nativeBuildInputs = [
