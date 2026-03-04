@@ -11,7 +11,7 @@ let
     src = fetchurl {
       #TODO: find out how to not only get a specific version, if possible
       url = "https://launcher.hytale.com/builds/release/linux/amd64/hytale-launcher-latest.flatpak";
-      hash = "sha256-Lt9agnXzWyGH6NNtfLJFNrpFVrhl+3bYzbirM/e9iT4=";
+      hash = "sha256-W/aVRHVaWIP43w5xucU/0Zu6JgsPfgMgLPn9M4rhLrE=";
     };
 
     nativeBuildInputs = [
